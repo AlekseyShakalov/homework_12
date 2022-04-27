@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="./img/RubyHomeLogo.png" alt="Ruby Home Logo" />
+          </a>
+        </div>
+    
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul><button type="button" class="btn btn-default navbar-btn navbar-right">Sign in</button>          
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="./img/Capital_hill_residence.png" alt="Capital hill residence" width="100%" />
+            <div class="carousel-caption">
+              <h3>Capital hill residence</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./img/Corsair_Real_Estate.png" alt="Corsair Real Estate" width="100%" />
+            <div class="carousel-caption">
+              <h3>Corsair Real Estate</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./img/Picket_Fence_Realty.png" alt="Picket Fence Realty" width="100%" />
+            <div class="carousel-caption">
+              <h3>Picket Fence Realty</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./img/Sequoia_Real_Estate.png" alt="Sequoia Real Estate" width="100%" />
+            <div class="carousel-caption">
+              <h3>Sequoia Real Estate</h3>
+            </div>
+          </div>          
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <br />
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="dropdown left-list">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Dropdown
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Dropdown
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Dropdown
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Dropdown
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </div>       
+        
+        <div class="col-md-8">
+          <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+            <ul class="nav nav-tabs" id="myTabs" role="tablist">
+              <li role="presentation" class="active">
+                <a
+                  href="#home"
+                  id="home-tab"
+                  role="tab"
+                  data-toggle="tab"
+                  aria-controls="home"
+                  aria-expanded="true">Home
+                </a>
+              </li>
+              <li role="presentation" class="">
+                <a
+                  href="#properties"
+                  role="tab"
+                  id="properties-tab"
+                  data-toggle="tab"
+                  aria-controls="properties"
+                  aria-expanded="false">Properties
+                </a>
+              </li>
+              <li role="presentation" class="">
+                <a
+                  href="#aboutUs"
+                  role="tab"
+                  id="aboutUs-tab"
+                  data-toggle="tab"
+                  aria-controls="aboutUs"
+                  aria-expanded="false">About Us
+                </a>
+              </li>
+              <li role="presentation" class="">
+                <a
+                  href="#blog"
+                  role="tab"
+                  id="blog-tab"
+                  data-toggle="tab"
+                  aria-controls="blog"
+                  aria-expanded="false">Blog
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade active in"
+                role="tabpanel"
+                id="home"
+                aria-labelledby="home-tab">
+                <p>
+                  Raw denim you probably haven't heard of them jean shorts Austin.
+                  Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache
+                  cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
+                  butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi,
+                  qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                  iphone. Seitan aliquip quis cardigan american apparel, butcher
+                  voluptate nisi qui.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                role="tabpanel"
+                id="properties"
+                aria-labelledby="properties-tab">
+                <p>
+                  Food truck fixie locavore, accusamus mcsweeney's marfa nulla
+                  single-origin coffee squid. Exercitation +1 labore velit, blog
+                  sartorial PBR leggings next level wes anderson artisan four loko
+                  farm-to-table craft beer twee. Qui photo booth letterpress, commodo
+                  enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
+                  PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus
+                  mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente
+                  labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
+                  sustainable jean shorts beard ut DIY ethical culpa terry richardson
+                  biodiesel. Art party scenester stumptown, tumblr butcher vero sint
+                  qui sapiente accusamus tattooed echo park.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                role="tabpanel"
+                id="aboutUs"
+                aria-labelledby="aboutUs-tab">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iure
+                  perspiciatis numquam hic nam voluptas rem tempora, autem, quidem
+                  necessitatibus facere, amet praesentium blanditiis ea veritatis! Assumenda
+                  ducimus dolorum excepturi sapiente dolor amet eligendi repellat vel iure
+                  eveniet, natus, est enim delectus quo, deserunt officiis labore praesentium
+                  quia voluptas commodi quod numquam optio. Laborum iste optio possimus
+                  quisquam, autem aspernatur cum ut earum inventore obcaecati, debitis, eos
+                  voluptatibus error rem unde id distinctio minus! Ducimus porro blanditiis
+                  deserunt sit aperiam, minima, ex consequuntur voluptas, quasi libero vero
+                  quo mollitia eos? Ut facilis totam animi. Doloremque, tempore? Eaque ullam
+                  nam illo!
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                role="tabpanel"
+                id="blog"
+                aria-labelledby="blog-tab">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe est quidem
+                  et placeat? Voluptatem laboriosam esse rem a assumenda, dignissimos dolorem
+                  quam at quis sunt consequuntur dicta eos natus molestiae dolore nesciunt
+                  magnam vel ad ullam, impedit facere, recusandae perspiciatis dolorum
+                  repudiandae? Nesciunt nulla beatae maxime aliquid distinctio, veniam
+                  facilis, cupiditate optio, nostrum corporis aliquam quibusdam laborum
+                  aspernatur totam suscipit dolore consequuntur molestiae placeat iure nam
+                  asperiores doloremque! Eveniet voluptatibus perferendis incidunt, quisquam
+                  ipsam dolor dolorem pariatur debitis, vel porro praesentium est omnis minima
+                  distinctio. Eum expedita consectetur blanditiis, sunt rem tempora saepe
+                  laboriosam laudantium similique non qui sapiente itaque?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <section class="container">
+      <form class="form-inline text-center">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputEmail3">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputTel3">Phone</label>
+          <input type="tel" class="form-control" id="exampleInputPhone3" placeholder="Phone">
+        </div>        
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </section>
+  </main>
+  <br />
+  
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="width:250px">
+          <img class="card-img-top" src="./img/Strive_Partners_Realty.png" alt="Strive Partners Realty" width="250px" />
+          <div class="card-body">
+            <h3 class="card-title">Strive Partners Realty</h3>
+            <p class="card-text">
+              <img src="./img/icons/Location_icon.png" alt="Location" />
+          <p>East London</p>
+          <img src="./img/icons/Bedroom_icon.png" alt="Bedroom" />
+          <p>6</p>
+          <img src="./img/icons/Kitchen_icon.png" alt="Kitchen" />
+          <p>2</p>
+          <img src="./img/icons/Bathroom_icon.png" alt="Bathroom" />
+          <p>3</p>
+          <p>$5527.00</p>
+            </p>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-md-3"><img src="./img/Banyon_Tree_Realty.png" alt="Banyon Tree Realty" width="250px" /></div>
+      <div class="col-md-3"><img src="./img/Building.png" alt="Building" width="250px" /></div>
+      <div class="col-md-3"><img src="./img/Building1.png" alt="Building" width="250px" /></div>
+    </div>
+  </footer>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
